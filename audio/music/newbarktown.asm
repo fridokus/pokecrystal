@@ -7,7 +7,7 @@ Music_NewBarkTown: ; eb2d3
 	db $3
 
 Music_NewBarkTown_Ch1: ; eb2dd
-	tempo 127
+	tempo 187
 	volume $77
 	stereopanning $f
 	vibrato $12, $23
@@ -49,14 +49,14 @@ Music_NewBarkTown_branch_eb2eb: ; eb2eb
 	note E_, 2
 	dutycycle $2
 	intensity $82
-	note D#, 1
+	note C#, 1
 	note __, 1
 	octave 2
-	note B_, 1
+	note A_, 1
 	octave 3
 	note C#, 1
-	note F_, 1
-	note F#, 1
+	note E_, 1
+	note G_, 1
 	note A_, 1
 	octave 4
 	note C#, 1
@@ -110,7 +110,7 @@ Music_NewBarkTown_branch_eb349: ; eb349
 	note B_, 2
 	note F#, 1
 	note __, 1
-	note F_, 1
+	note F#, 1
 	note __, 1
 	note D_, 1
 	note __, 1
@@ -154,7 +154,7 @@ Music_NewBarkTown_branch_eb37c: ; eb37c
 	note A_, 2
 	octave 3
 	note C#, 2
-	note G_, 2
+	note E_, 2
 	note G_, 4
 	note A_, 4
 	note E_, 2
@@ -182,7 +182,7 @@ Music_NewBarkTown_branch_eb396: ; eb396
 	note C#, 16
 	callchannel Music_NewBarkTown_branch_eb3f2
 	intensity $87
-	octave 4
+	octave 5
 	note B_, 6
 	note A_, 6
 	intensity $77
@@ -205,7 +205,7 @@ Music_NewBarkTown_branch_eb3bf: ; eb3bf
 	note D_, 8
 	note A#, 2
 	note __, 2
-	note E_, 4
+	note D_, 4
 	note __, 8
 	note D_, 1
 	note __, 1
